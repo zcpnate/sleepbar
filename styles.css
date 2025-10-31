@@ -413,8 +413,22 @@ footer {
     transition: opacity 0.2s;
 }
 
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-link svg {
+    transition: transform 0.2s;
+}
+
 .footer-links a:hover {
     opacity: 1;
+}
+
+.footer-link:hover svg {
+    transform: translateY(-2px);
 }
 
 /* Responsive */
