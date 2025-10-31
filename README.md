@@ -1,7 +1,7 @@
 # SleepBar
 
 <p align="center">
-  <img src="media/app.png" alt="SleepBar Interface" width="600">
+  <img src="media/app.png" alt="SleepBar Interface" width="450">
 </p>
 
 <p align="center">
