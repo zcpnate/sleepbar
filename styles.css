@@ -5,27 +5,32 @@
 }
 
 :root {
-    --primary-color: #007AFF;
-    --secondary-color: #5AC8FA;
-    --text-dark: #1D1D1F;
-    --text-light: #86868B;
-    --background: #FBFBFD;
-    --card-bg: #FFFFFF;
+    /* Dark Mode (Default) */
+    --primary-color: #0A84FF;
+    --secondary-color: #64D2FF;
+    --text-primary: #FFFFFF;
+    --text-secondary: #A1A1A6;
+    --background: #000000;
+    --background-elevated: #1C1C1E;
+    --card-bg: rgba(28, 28, 30, 0.9);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --glass-bg: rgba(28, 28, 30, 0.7);
+    --header-bg: rgba(0, 0, 0, 0.8);
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     background-color: var(--background);
-    color: var(--text-dark);
+    color: var(--text-primary);
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background: rgba(251, 251, 253, 0.8);
+    background: var(--header-bg);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--card-border);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -53,7 +58,7 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: var(--text-dark);
+    color: var(--text-secondary);
     font-weight: 500;
     transition: color 0.2s;
 }
@@ -99,19 +104,21 @@ nav {
 
 .secondary-button {
     display: inline-block;
-    background: white;
+    background: var(--card-bg);
     color: var(--primary-color);
     padding: 1rem 2rem;
     border-radius: 12px;
     text-decoration: none;
     font-weight: 600;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--card-border);
     transition: all 0.2s;
+    backdrop-filter: blur(10px);
 }
 
 .secondary-button:hover {
     background: var(--primary-color);
     color: white;
+    border-color: var(--primary-color);
 }
 
 /* Hero Section */
@@ -137,7 +144,7 @@ nav {
 
 .tagline {
     font-size: 1.5rem;
-    color: var(--text-light);
+    color: var(--text-secondary);
     margin-bottom: 2rem;
 }
 
@@ -148,7 +155,7 @@ nav {
 }
 
 .trial-info {
-    color: var(--text-light);
+    color: var(--text-secondary);
     font-size: 0.9rem;
 }
 
@@ -172,7 +179,7 @@ nav {
 
 /* Features Section */
 .features {
-    background: white;
+    background: var(--background-elevated);
     padding: 6rem 2rem;
 }
 
@@ -191,15 +198,18 @@ nav {
 }
 
 .feature {
-    background: var(--background);
+    background: var(--glass-bg);
     padding: 2rem;
     border-radius: 16px;
-    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
 .feature:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(10, 132, 255, 0.2);
+    border-color: var(--primary-color);
 }
 
 .feature-icon {
@@ -213,12 +223,12 @@ nav {
 }
 
 .feature p {
-    color: var(--text-light);
+    color: var(--text-secondary);
 }
 
 /* Changelog Section */
 .changelog {
-    background: white;
+    background: var(--background);
     padding: 6rem 2rem;
 }
 
@@ -234,17 +244,19 @@ nav {
 }
 
 .changelog-entry {
-    background: var(--background);
+    background: var(--glass-bg);
     border-radius: 16px;
     padding: 2rem;
     margin-bottom: 2rem;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(10px);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
 .changelog-entry:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(10, 132, 255, 0.2);
+    border-color: var(--primary-color);
 }
 
 .version-header {
@@ -261,7 +273,7 @@ nav {
 }
 
 .version-date {
-    color: var(--text-light);
+    color: var(--text-secondary);
     font-size: 0.9rem;
 }
 
@@ -285,7 +297,7 @@ nav {
     padding: 0.5rem 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: var(--text-dark);
+    color: var(--text-secondary);
 }
 
 .changelog-list li::before {
@@ -302,14 +314,14 @@ nav {
 .changelog-subsection {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--text-dark);
+    color: var(--text-primary);
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .loading {
     text-align: center;
-    color: var(--text-light);
+    color: var(--text-secondary);
     padding: 2rem;
 }
 
@@ -328,14 +340,14 @@ nav {
 
 .download p {
     font-size: 1.2rem;
-    color: var(--text-light);
+    color: var(--text-secondary);
     margin-bottom: 2rem;
 }
 
 .system-requirements {
     margin-top: 1rem;
     font-size: 0.9rem;
-    color: var(--text-light);
+    color: var(--text-secondary);
 }
 
 /* Pricing Section */
@@ -353,10 +365,12 @@ nav {
 .pricing-card {
     max-width: 400px;
     margin: 0 auto;
-    background: white;
+    background: var(--glass-bg);
     padding: 3rem;
     border-radius: 20px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 40px rgba(10, 132, 255, 0.1);
 }
 
 .price {
@@ -367,7 +381,7 @@ nav {
 }
 
 .price-subtext {
-    color: var(--text-light);
+    color: var(--text-secondary);
     margin-bottom: 2rem;
 }
 
@@ -384,10 +398,11 @@ nav {
 
 /* Footer */
 footer {
-    background: var(--text-dark);
-    color: white;
+    background: var(--background-elevated);
+    color: var(--text-primary);
     padding: 3rem 2rem;
     text-align: center;
+    border-top: 1px solid var(--card-border);
 }
 
 .footer-links {
