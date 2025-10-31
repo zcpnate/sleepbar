@@ -1,11 +1,11 @@
 # SleepBar - Public Website & Releases
 
-Official website and release distribution for [SleepBar](https://zcpnate.github.io/sleepbar).
+Official website and release distribution for [SleepBar](https://sleepbar.app).
 
 ## 🌐 Website
 
 This repository hosts:
-- **Marketing website**: https://zcpnate.github.io/sleepbar (or sleepbar.app with custom domain)
+- **Marketing website**: https://sleepbar.app
 - **App releases**: via GitHub Releases
 - **Sparkle appcast**: `appcast.xml` for auto-updates
 
@@ -75,13 +75,13 @@ git push
 3. Branch: **main** / **root**
 4. Save
 
-Site will be live at: https://zcpnate.github.io/sleepbar
+Site will be live at: https://sleepbar.app (GitHub Pages with custom domain)
 
-### Custom Domain (Optional)
-1. Buy domain: `sleepbar.app`
-2. Add `CNAME` file with domain name
-3. Configure DNS at registrar
-4. Enable custom domain in GitHub Pages settings
+### Custom Domain Setup
+1. Domain: `sleepbar.app` (already configured)
+2. `CNAME` file added to repository
+3. DNS configured at registrar
+4. Custom domain enabled in GitHub Pages settings
 
 ## 📝 Updating Website
 
@@ -96,9 +96,9 @@ Changes will be live within a few minutes.
 
 ## 🔗 Important URLs
 
-- **Website**: https://zcpnate.github.io/sleepbar
+- **Website**: https://sleepbar.app
 - **Latest Release**: https://github.com/zcpnate/sleepbar/releases/latest
-- **Appcast**: https://zcpnate.github.io/sleepbar/appcast.xml
+- **Appcast**: https://sleepbar.app/appcast.xml
 - **Lemon Squeezy**: https://zcpnate.lemonsqueezy.com
 
 ## 📄 Files in This Repo
