@@ -352,6 +352,20 @@ nav {
     vertical-align: middle;
 }
 
+.changelog-subsection {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.loading {
+    text-align: center;
+    color: var(--text-light);
+    padding: 2rem;
+}
+
 /* Download Section */
 .download {
     max-width: 800px;
