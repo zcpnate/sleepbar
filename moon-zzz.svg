@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Moon -->
+  <path d="M24 8C15.163 8 8 15.163 8 24C8 32.837 15.163 40 24 40C28.42 40 32.42 38.32 35.42 35.62C34.52 35.87 33.58 36 32.62 36C24.28 36 17.5 29.22 17.5 20.88C17.5 15.42 20.42 10.62 24.78 8.12C24.52 8.08 24.26 8.04 24 8.04V8Z" 
+        fill="currentColor" opacity="0.9"/>
+  
+  <!-- First Z (top right) -->
+  <path d="M42 12H50L42 20H50" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  
+  <!-- Second Z (middle right) -->
+  <path d="M46 24H53L46 31H53" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  
+  <!-- Third Z (bottom right) -->
+  <path d="M50 38H56L50 44H56" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+</svg>
+
