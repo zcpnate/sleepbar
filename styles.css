@@ -167,7 +167,7 @@ nav {
 }
 
 .app-screenshot {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
@@ -433,6 +433,7 @@ footer {
     }
 
     .app-screenshot {
+        max-width: 90%;
         transform: none;
     }
 
