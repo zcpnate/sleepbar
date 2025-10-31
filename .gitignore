@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Don't ignore release files
+!*.dmg
+!*.zip
+!*.delta
+!appcast.xml
+
