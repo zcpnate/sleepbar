@@ -43,6 +43,15 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--primary-color);
 }
 
 .nav-links {
@@ -157,70 +166,17 @@ nav {
     perspective: 1000px;
 }
 
-.preview-window {
-    background: var(--card-bg);
-    border-radius: 16px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-    padding: 1.5rem;
-    transform: rotateY(-10deg);
-    transition: transform 0.5s;
+.app-screenshot {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+    transform: rotateY(-5deg) rotateX(2deg);
+    transition: transform 0.5s ease;
 }
 
-.preview-window:hover {
-    transform: rotateY(0deg);
-}
-
-.window-controls {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.window-controls span {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #ccc;
-}
-
-.preview-content {
-    text-align: center;
-}
-
-.moon-icon {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-}
-
-.timer-display {
-    font-size: 2.5rem;
-    font-weight: 700;
-    font-variant-numeric: tabular-nums;
-    color: var(--primary-color);
-    margin: 1rem 0;
-}
-
-.quick-buttons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-    margin-top: 1rem;
-}
-
-.quick-buttons button {
-    padding: 0.75rem;
-    border: none;
-    background: rgba(0, 122, 255, 0.1);
-    color: var(--primary-color);
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.quick-buttons button:hover {
-    background: var(--primary-color);
-    color: white;
+.app-screenshot:hover {
+    transform: rotateY(0deg) rotateX(0deg);
 }
 
 /* Features Section */
@@ -476,7 +432,7 @@ footer {
         flex-direction: column;
     }
 
-    .preview-window {
+    .app-screenshot {
         transform: none;
     }
 

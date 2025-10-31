@@ -1,6 +1,23 @@
 # SleepBar
 
-A simple and elegant sleep timer for macOS.
+<p align="center">
+  <img src="media/app.png" alt="SleepBar Interface" width="600">
+</p>
+
+<p align="center">
+  <strong>A simple and elegant sleep timer for macOS</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/zcpnate/sleepbar/releases/latest">
+    <img src="https://img.shields.io/github/v/release/zcpnate/sleepbar?label=version" alt="Latest Release">
+  </a>
+  <a href="https://github.com/zcpnate/sleepbar/releases">
+    <img src="https://img.shields.io/github/downloads/zcpnate/sleepbar/total" alt="Downloads">
+  </a>
+  <img src="https://img.shields.io/badge/macOS-14.0+-blue" alt="macOS 14.0+">
+  <img src="https://img.shields.io/badge/price-$4.20-green" alt="Price">
+</p>
 
 ---
 
