@@ -76,7 +76,7 @@ Visit [sleepbar.app](https://sleepbar.app) for more information.
 
 ## 📧 Support
 
-- **Email**: [nate@sleepbar.app](mailto:nate@sleepbar.app)
+- **Email**: [hi@sleepbar.app](mailto:hi@sleepbar.app)
 - **Issues**: [Report a bug](https://github.com/zcpnate/sleepbar/issues)
 
 ---

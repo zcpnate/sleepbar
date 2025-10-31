@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Future Releases
 
-Have a feature request? [Open an issue](https://github.com/zcpnate/sleepbar/issues) or email [nate@sleepbar.app](mailto:nate@sleepbar.app)!
+Have a feature request? [Open an issue](https://github.com/zcpnate/sleepbar/issues) or email [hi@sleepbar.app](mailto:hi@sleepbar.app)!
 
 ### Ideas for Future Versions
 - [ ] Customizable warning time (not just 1 minute)
