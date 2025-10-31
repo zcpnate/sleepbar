@@ -269,6 +269,89 @@ nav {
     color: var(--text-light);
 }
 
+/* Changelog Section */
+.changelog {
+    background: white;
+    padding: 6rem 2rem;
+}
+
+.changelog h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.changelog-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.changelog-entry {
+    background: var(--background);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.changelog-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.version-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.version-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.version-date {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.version-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.changelog-list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.changelog-list li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.changelog-list li::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    vertical-align: middle;
+}
+
 /* Download Section */
 .download {
     max-width: 800px;
