@@ -40,38 +40,5 @@ Have a feature request? [Open an issue](https://github.com/zcpnate/sleepbar/issu
 
 ---
 
-## How to Update This Changelog
-
-When releasing a new version:
-
-1. **Add a new section** for the version:
-```markdown
-## [X.Y.Z] - YYYY-MM-DD
-
-### Added
-- New feature 1
-- New feature 2
-
-### Fixed
-- Bug fix 1
-- Bug fix 2
-
-### Changed
-- Changed behavior 1
-```
-
-2. **Update the website** (`index.html`):
-   - Copy the new version entry to the changelog section
-   - Move previous versions down
-
-3. **Commit and push**:
-```bash
-git add CHANGELOG.md index.html
-git commit -m "Release v X.Y.Z"
-git push
-```
-
----
-
 [1.0.0]: https://github.com/zcpnate/sleepbar/releases/tag/v1.0.0
 
