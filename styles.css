@@ -48,6 +48,15 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 24px;
 }
 
 .nav-links {
