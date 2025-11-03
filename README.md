@@ -58,7 +58,7 @@ SleepBar is a beautiful menu bar app that lets you set your Mac to sleep after a
 - Lifetime updates included
 - Use on 3 Macs
 
-[Purchase License](https://shop.sleepbar.app/buy/678697)
+[Purchase License](https://shop.sleepbar.app/buy/8089829a-1927-4553-9b16-28aacdcfe904)
 
 ---
 
