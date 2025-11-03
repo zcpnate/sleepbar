@@ -30,14 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Have a feature request? [Open an issue](https://github.com/zcpnate/sleepbar/issues) or email [hi@sleepbar.app](mailto:hi@sleepbar.app)!
 
-### Ideas for Future Versions
-- [ ] Customizable warning time (not just 1 minute)
-- [ ] Multiple timer profiles/presets
-- [ ] Keyboard shortcuts
-- [ ] Sound alerts (in addition to visual warning)
-- [ ] Statistics (track sleep timer usage)
-- [ ] Dark mode icon option
-
 ---
 
 [1.0.0]: https://github.com/zcpnate/sleepbar/releases/tag/v1.0.0
