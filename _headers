@@ -1,0 +1,23 @@
+# Security Headers for SleepBar Website
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  
+# Cache appcast for 5 minutes (allow frequent update checks)
+/appcast.xml
+  Cache-Control: public, max-age=300
+
+# Cache static assets for 1 week
+/media/*
+  Cache-Control: public, max-age=604800
+
+/styles.css
+  Cache-Control: public, max-age=604800
+
+# Don't cache the main page (so users always get latest)
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+

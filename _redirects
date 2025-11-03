@@ -1,0 +1,6 @@
+# Redirect www to apex domain
+https://www.sleepbar.app/* https://sleepbar.app/:splat 301
+
+# Redirect old paths if you ever restructure
+# /download /index.html#download 302
+
