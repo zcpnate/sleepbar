@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] - 11-04-2025
+
+#### Bug Fixes
+- Fix target time not updating properly
+
 ## [1.0.1] - 11-03-2025
 
 ### 🎉 Initial Release
