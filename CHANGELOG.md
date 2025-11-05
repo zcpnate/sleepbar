@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.3] - 11-05-2025
+
+#### Added
+- Eject removable drives before sleeping when selecting system sleep. Thanks /u/snarky_one
+
 ## [1.0.2] - 11-04-2025
 
 #### Bug Fixes
