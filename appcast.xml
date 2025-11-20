@@ -8,7 +8,7 @@
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/zcpnate/sleepbar/releasesdownload/v1.0.4/SleepBar.dmg" length="2550713" type="application/octet-stream" sparkle:edSignature="wlKebGydJABq3Pwh+JDyb7rSTS3cUOYpNdW71YvuOVXt+eCMXIA0xycTHnra8dHcI0zE06LVK7AUfpNbfdOtAg=="/>
+            <enclosure url="https://github.com/zcpnate/sleepbar/releases/download/v1.0.4/SleepBar.dmg" length="2550713" type="application/octet-stream" sparkle:edSignature="wlKebGydJABq3Pwh+JDyb7rSTS3cUOYpNdW71YvuOVXt+eCMXIA0xycTHnra8dHcI0zE06LVK7AUfpNbfdOtAg=="/>
         </item>
     </channel>
 </rss>
