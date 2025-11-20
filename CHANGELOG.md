@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.4] - 11-20-2025
+
+#### Added
+- **Configurable Pre-Sleep Alert**: Customize when you receive the warning before sleep
+- **Toggle Alert On/Off**: Option to enable or disable pre-sleep alerts entirely
+
 ## [1.0.3] - 11-05-2025
 
 #### Added
