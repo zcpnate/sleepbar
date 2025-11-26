@@ -320,6 +320,31 @@ nav {
     vertical-align: middle;
 }
 
+.changelog-list li strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.changelog-list li code {
+    background: rgba(10, 132, 255, 0.15);
+    color: var(--primary-color);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.changelog-list li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.changelog-list li a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
 .changelog-subsection {
     font-size: 1.1rem;
     font-weight: 600;

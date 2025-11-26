@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.5] - 11-25-2025
+
+#### Added
+- **Sleep Now Button**: Bypass the countdown and sleep immediately from the pre-sleep alert
+- **Movable Alert Window**: Drag the pre-sleep alert window anywhere on screen
+- **Remember Last Settings**: App now remembers your last used timer settings, sleep mode, and custom timer inputs
+
+#### Improved
+- **Redesigned Pre-Sleep Alert**: Larger, more colorful buttons with icons for better visibility
+- Blue snooze buttons, orange Sleep Now, and red Cancel for clear visual hierarchy
+
 ## [1.0.4] - 11-20-2025
 
 #### Added

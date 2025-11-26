@@ -159,6 +159,21 @@
             }
         }
 
+        // Convert inline markdown to HTML
+        function parseInlineMarkdown(text) {
+            return text
+                // Bold: **text** or __text__
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/__(.+?)__/g, '<strong>$1</strong>')
+                // Italic: *text* or _text_
+                .replace(/\*(.+?)\*/g, '<em>$1</em>')
+                .replace(/_(.+?)_/g, '<em>$1</em>')
+                // Inline code: `code`
+                .replace(/`(.+?)`/g, '<code>$1</code>')
+                // Links: [text](url)
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+        }
+
         function parseChangelog(markdown) {
             const lines = markdown.split('\n');
             let html = '';
@@ -218,7 +233,7 @@
                     }
                     
                     const sectionText = line.replace('### ', '');
-                    html += `<div class="version-badge">${sectionText}</div>`;
+                    html += `<div class="version-badge">${parseInlineMarkdown(sectionText)}</div>`;
                     currentSection = sectionText;
                 }
                 // Subsection: #### Added
@@ -229,7 +244,7 @@
                     }
                     
                     const subsectionText = line.replace('#### ', '');
-                    html += `<div class="changelog-subsection">${subsectionText}</div>`;
+                    html += `<div class="changelog-subsection">${parseInlineMarkdown(subsectionText)}</div>`;
                 }
                 // List items: - Item text
                 else if (line.startsWith('- ')) {
@@ -239,7 +254,7 @@
                     }
                     
                     const itemText = line.replace('- ', '');
-                    html += `<li>${itemText}</li>`;
+                    html += `<li>${parseInlineMarkdown(itemText)}</li>`;
                 }
             }
             
