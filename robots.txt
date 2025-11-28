@@ -1,0 +1,7 @@
+# robots.txt for SleepBar
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://sleepbar.app/sitemap.xml
+

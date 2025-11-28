@@ -430,6 +430,75 @@ nav {
     font-size: 1.1rem;
 }
 
+/* FAQ Section */
+.faq {
+    background: var(--background-elevated);
+    padding: 6rem 2rem;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: var(--glass-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(10px);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.faq-item:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(10, 132, 255, 0.2);
+}
+
+.faq-item[open] {
+    border-color: var(--primary-color);
+}
+
+.faq-item summary {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: '+';
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: transform 0.3s;
+}
+
+.faq-item[open] summary::after {
+    transform: rotate(45deg);
+}
+
+.faq-item p {
+    margin-top: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
 /* Footer */
 footer {
     background: var(--background-elevated);
@@ -533,15 +602,21 @@ footer {
     .features,
     .changelog,
     .download,
-    .pricing {
+    .pricing,
+    .faq {
         padding: 3rem 1.5rem;
     }
 
     .features h2,
     .changelog h2,
     .download h2,
-    .pricing h2 {
+    .pricing h2,
+    .faq h2 {
         font-size: 2rem;
+    }
+    
+    .faq-item summary {
+        font-size: 1rem;
     }
 
     .features-grid {
