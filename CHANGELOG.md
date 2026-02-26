@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.6] - 02-26-2026
+
+#### Bug Fixes
+- **License Validation**: Fixed an issue where a valid license could show as an expired trial after a few days if a background re-validation encountered a network error
+
+#### Updated
+- Updated Sparkle auto-update framework to 2.9.0
+
 ## [1.0.5] - 11-25-2025
 
 #### Added
