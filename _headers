@@ -17,7 +17,10 @@
 /styles.css
   Cache-Control: public, max-age=604800
 
-# Don't cache the main page (so users always get latest)
+# Don't cache HTML pages (so users always get latest)
 /index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/privacy.html
   Cache-Control: public, max-age=0, must-revalidate
 
