@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 03-08-2026
+
+#### Added
+- **Anonymous Analytics**: Opt-out usage analytics via Apple's iCloud (CloudKit) to help improve SleepBar — no personal data collected
+- **License Self-Service**: Manage your license directly from the About window — activate, deactivate, or purchase
+- **Privacy Policy**: Published at [sleepbar.app/privacy](https://sleepbar.app/privacy)
+
+#### Improved
+- **About Window**: Now appears above other windows and dismisses the menu bar popover when opened
+- **License Validation**: Improved reliability of license validation, especially on unreliable network connections
+- **Drive Ejection**: Improved reliability of external drive ejection before system sleep
+
+#### Bug Fixes
+- Fixed extra spacing in the settings area of the main menu
+- Fixed "Sleep Now" from the pre-sleep alert incorrectly logging as a timer cancellation
+
+#### Under the Hood
+- Added unit test suite covering timer logic, license management, and input validation
+- General code quality and stability improvements
+
 ## [1.0.6] - 02-26-2026
 
 #### Bug Fixes
